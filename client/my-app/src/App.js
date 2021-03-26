@@ -4,10 +4,9 @@ import {Detail} from './Components/Component'
 
 import { SearchList } from './Components/searches';
 import {Pages} from './Components/pages'
-//import styled from 'styled-components'
+
 
 const view ={
-    //color:blue;
     backgroundColor:'black',
 }
 

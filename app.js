@@ -4,8 +4,7 @@ const cors =require('cors')
 const { GraphQLObjectType, GraphQLInt, GraphQLString, GraphQLList, GraphQLSchema } = require('graphql');
 const {graphqlHTTP } = require('express-graphql');
 const fetch = require('node-fetch');
-//import schema from './schema';
-//const axios = require('axios');
+
 
 const app = express();
 app.use(cors())
